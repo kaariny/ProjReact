@@ -1,0 +1,68 @@
+.cadastro-pets-container {
+  margin: 24px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastro-pets-container input {
+  /* Seu estilo existente permanece o mesmo */
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0.06);
+  width: 100%;
+  height: 75px;
+  border: none;
+  font-size: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.cadastro-pets-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #000000;
+}
+
+.cadastro-pets-container form {
+  max-width: 50%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 36px 64px;
+  box-shadow: 10px 15px 30px 0px;
+  height: 100%;
+}
+
+.botao {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  border-radius: 15%;
+  margin: 24px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+.cadastro-pets-container h1 {
+  margin: 24px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alerta {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4c4eaf; /* Cor de fundo verde (pode ser alterada) */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
