@@ -14,7 +14,7 @@ function Pesquisa(){
                 onBlur={(evento=>{
                     const textoDigitado = evento.target.value;
                     /*
-                    retornar as vagas filtradas, o filro ele recebe uma funcao para cada elemento da lista
+                    retornar as vagas filtradas, o filtro ele recebe uma funcao para cada elemento da lista
                     se rertorna verdadeiros fica lista caso retorne falso ele nao entra na nossa lista
                     -- include-- verifica se nome digitado esta na lista 
                     */
